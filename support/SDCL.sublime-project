@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..",
+			"binary_file_patterns": [
+				"build/"
+			],
+		}
+	],
+	"settings": {
+		"lsp_format_on_save": false,
+		"LSP": {
+			"clangd": {
+				"enabled": true,
+				"initializationOptions": {
+					"clangd.compile-commands-dir": "support",
+					"clangd.header-insertion": "never",
+				},
+			},
+		},
+	}
+}

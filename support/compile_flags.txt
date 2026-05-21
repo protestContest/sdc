@@ -1,0 +1,8 @@
+-Wall
+-Wextra
+-Werror
+-Wno-unused-function
+-Wno-unused-parameter
+-I../include
+-include
+../include/base.h
